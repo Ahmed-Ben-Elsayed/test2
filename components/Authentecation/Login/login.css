@@ -1,0 +1,98 @@
+.Login {
+  /* Login */
+  position: relative;
+  width: 85%;
+  height: 85%;
+  /* background */
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* img */
+.log-img {
+  width: 80% !important;;
+  right: 20px;
+  height: 95%!important;
+  position: absolute;
+  object-fit: contain;
+}
+.Login .login-img {
+  width: 100%;
+  height: 100%;
+}
+.form-login {
+  height: max-content;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  margin-left: 30px;
+  z-index: 100;
+}
+.form-login form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: start;
+  width: 100% !important;
+}
+.form-login form input {
+  padding: 13px 11px;
+  width: 95%;
+  outline: none;
+  border: none;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  font-size: 17px;
+}
+.form-login form input::placeholder {
+  font-size: 16px;
+}
+.form-login  span {
+  color: #fec802 !important;
+}
+.form-login form .btn-login {
+  background-color: #fec802;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffffff;
+  width: 100%;
+  margin: auto;
+  padding: 10px 15px;
+}
+.form-login form .btn-login:hover {
+  background: transparent;
+  border: 1px solid #fec802;
+  color: black;
+  transition: 0.5s;
+}
+.form-login form a:hover {
+  color: #fec802;
+  transition: 0.5s;
+}
+.form-login .login-icon{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.form-login form .log-icon{
+    width: 30px;
+}
+.form-login form p {
+    text-align: center;
+    width: 100%;
+    font-size:20px;
+    margin-top: 10px;
+}
+.form-login form p a span:hover{
+color: rgb(226, 156, 43)!important;
+transition: 0.5s;
+}
